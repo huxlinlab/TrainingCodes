@@ -28,8 +28,7 @@
 try
     tStart = tic;
     %% Amazon Web Service login information
-    setenv('AWS_ACCESS_KEY_ID', 'AKIAWW7VB773XRNEPGUT');
-    setenv('AWS_SECRET_ACCESS_KEY', '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');
+
     setenv('AWS_REGION', 'us-east-2');
     AWSPath = 's3://huxlinlabclinicaltrialbucket/';
 
